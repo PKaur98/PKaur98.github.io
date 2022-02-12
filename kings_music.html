@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+          <link rel="stylesheet" href="css/kings_music_styles.css">
+          <link rel="stylesheet" type = "text/css" href="css/styles_print.css" media="print">
+         
+           <title> Kings Music </title>
+           
+           <meta charset="utf-8">
+     <script type="text/javascript"> 
+                function sayHey(){
+                 alert("Welcome to the Kings Music Store - Newsletter Signup");
+                    }
+         function validation(){ 
+                   var FirstName = document.forms["contact"]["fName"].value;         
+				   var LastName = document.forms["contact"]["lName"].value;
+                   
+                   if (FirstName == ""){
+                      alert(" First name field cannot be empty.");
+                      return false;
+                   }  
+               if (LastName == ""){
+                      alert(" Last name field cannot be empty.");
+                      return false;
+                   } 
+                   return true;
+                   }                   
+	 </script>
+    
+    </head>  
+     
+    <body onload="alert('Welcome to Kings Music');">
+          
+        
+        <div id="middle">
+        
+        
+        <form name="contact" method="POST" action="pinder.html" onsubmit="return validation()" >
+          <div id= "title"> <label> <br><br> KINGS MUSIC STORE </label> <br> <br> </div>
+         <div id="Content">
+        <div id="music"> <label> <br><br> Please fill the following contact form:</label> <br><br></div>
+        
+        <div id="labels">
+        <label class="text"> First Name</label><br><br> <input type="text" name="fName" class="textbox" size="60"> <br><br>
+        <label class="text"> Last Name</label> <br><br> <input type="text"  name="lName" class="textbox" size="60"> <br><br>
+        
+         <label class="text"> Age:</label>  <br><br>
+         <label class="radio" ><input type="radio"    value="15-25"> 15-25 </label>
+         <label class="radio" ><input type="radio"    value="26-35"> 26-35 </label>
+         <label class="radio" ><input type="radio"    value="36-45"> 36-45 </label>
+         <label class="radio" ><input type="radio"    value="46-55"> 46-55 </label>
+         <label class="radio" ><input type="radio"    value="55+">  55+ </label>
+         <br> <br> <br>                          
+        <label class="text"> Email</label> <br><br> <input type="text"  name="email" class="textbox" size="60" /> <br><br>
+        </div>
+         <br> <br> <br>
+        </div>
+       
+        <div id="music"> <label> <br>Musical Tastes:</label> <br> </div>
+        <div id= "Music">
+        <input type="checkbox" name="box1" value="opera"> Opera <br> <br>
+        <input type="checkbox" name="box2" value="blues"> Blues <br> <br>
+        <input type="checkbox" name="box3" value="jazz"> Jazz <br> <br>
+        <input type="checkbox" name="box4" value="classical"> Classical <br> <br>
+        <input type="checkbox" name="box5" value="rock & roll"> Rock & Roll <br> <br>
+        <input type="checkbox" name="box6" value="pop"> Pop <br> <br>
+        <input type="checkbox" name="box7" value="Folk"> Folk <br> <br>
+        <input type="checkbox" name="box8" value="Ccountry and western"> Country and Western <br> <br>
+        <input type="checkbox" name="box9" value="disco"> Disco<br> <br>
+        <input type="checkbox" name="box10" value="heavy metal"> Heavy Metal <br> <br>
+        </div>
+        
+         <br> <br> <br>
+         
+         <div id="music"> <label> Any Other Music Interest </label> <br> </div>
+         <div id="Comment">
+         <textarea rows="5" cols="30"> TYPE HERE..........</textarea> </div>
+         <br> <br> <br>
+         <input type="submit">
+         <input type="reset">
+         
+         
+        </form>
+        </div>
+
+
+         
+             
+ </body>
+ 
+ </html> 

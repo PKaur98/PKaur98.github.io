@@ -1,0 +1,15 @@
+#navigation{
+    display:none;
+}
+body{
+   background-color:white;
+}
+#right img{
+    display:none;
+}
+#content{
+    font-size:2.5em;
+}
+#footer{
+    display:none;
+}

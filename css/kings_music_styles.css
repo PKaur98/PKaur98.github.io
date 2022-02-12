@@ -1,0 +1,72 @@
+body{
+    background-image:url(../images/music.jpg);
+    min-width:800px;   
+    width:50%;
+    height:100%; 
+    background-attachment:fixed;
+     
+}
+#middle{ height:1000px;
+             width:50px;
+             min-width:700px;
+             margin-left:250px;
+             margin-right:0px;
+             margin-top:20px;
+             margin-bottom: 0px;
+             font-size:1em;
+             text-align: justify;
+            
+    }
+    #title{ font-size:3em;
+             font-weight: bold;
+            font-style: italic;
+            text-align: center;
+    }
+.textbox{ 
+          padding-right:10%;
+          margin-top: 10px;
+          margin-right: 10px;
+          float: middle;
+          
+} 
+.text{ 
+       padding-left:10px;
+       text-align: right;
+       margin-top: 10px;
+       float: left;
+       display:block;
+       font-weight: bold;
+}
+
+#labels label{text-align: right;
+              font-weight: bold;
+              border: 2px solid black;
+              
+}
+#labels { border: 2px solid black;
+          font-size:1em;
+          text-align:left;}
+  
+#Comment{  border: 3px solid black;
+          padding: 10px;} 
+
+.radio{ 
+font-size: 70%;
+
+}
+
+#Music{ border: 3px solid black;
+        font-size:1.5em;
+        
+}
+#music { font-size:1.5em;
+         text-align: justify;
+         font-weight: bold;
+        } 
+     
+#Content{
+          font-weight:bold;
+          font-size:1.2em;
+          text-align:justify;
+  
+}
